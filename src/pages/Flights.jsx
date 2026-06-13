@@ -8,7 +8,7 @@ import {
 } from "react-icons/fa";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import Autocomplete from "../components/Autocomplete";
+import AutoComplete from "../components/AutoComplete";
 import FlightSkeleton from "../components/FlightSkeleton";
 import searchImg from "../assets/search.avif";
 import { fetchFlights, fetchCities } from "../api/flight";
