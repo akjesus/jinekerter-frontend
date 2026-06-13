@@ -13,17 +13,7 @@ import FlightBooking from "../pages/FlightBooking";
 import FlightCheckout from "../pages/FlightCheckout";
 import FlightSuccess from "../pages/FlightSuccess";
 
-
-
-
-
-
-
-
-
-
-
-const AppRoutes = () => {
+  const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
@@ -31,7 +21,7 @@ const AppRoutes = () => {
       <Route path="/tours" element={<Tours />} />
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/flights" element={<Flights />} />;
+      <Route path="/flights" element={<Flights />} />
       <Route path="/search-results" element={<SearchResults />} />
       <Route path="/checkout" element={<Checkout />} />
       <Route path="/booking-success" element={<BookingSuccess />} />
