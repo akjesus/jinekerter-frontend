@@ -124,8 +124,6 @@ const Navbar = () => {
               </NavLink>
             ))}
 
-            <ThemeToggle />
-
             <button className="w-full bg-primary text-white py-3 rounded-full">
               Book Now
             </button>

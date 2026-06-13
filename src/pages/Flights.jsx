@@ -175,24 +175,26 @@ const handleSearch = () => {
 
           <div className="grid md:grid-cols-5 gap-4">
             {/* FROM */}
-            <Autocomplete
+            <AutoComplete
               label="From"
               value={search.from}
               onSelect={(city) =>
-                setSearch((prev) => ({
+                setFormData((prev) => ({
                   ...prev,
                   from: city.iata_code,
+                  fromName: city.city_name,
                 }))
               }
             />
             {/* TO */}
-            <Autocomplete
+            <AutoComplete
               label="To"
               value={search.to}
               onSelect={(city) =>
                 setSearch((prev) => ({
                   ...prev,
                   to: city.iata_code,
+                  toName: city.city_name,
                 }))
               }
             />
