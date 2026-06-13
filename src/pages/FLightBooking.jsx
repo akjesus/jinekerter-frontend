@@ -13,7 +13,6 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import flightImg from "../assets/flight.avif";
 
-
 const FlightBooking = () => {
   const { state } = useLocation();
   const navigate = useNavigate();

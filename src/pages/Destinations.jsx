@@ -4,6 +4,7 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 import DestinationModal from "../components/DestinationModal";
+
 import dest from "../assets/dest.avif";
 import d1 from "../assets/d1.avif";
 import d2 from "../assets/d2.avif";

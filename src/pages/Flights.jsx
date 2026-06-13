@@ -185,7 +185,6 @@ const handleSearch = () => {
                 }))
               }
             />
-
             {/* TO */}
             <Autocomplete
               label="To"
