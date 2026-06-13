@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { FaPlaneDeparture } from "react-icons/fa";
 import axios from "axios";
 
-const CityAutocomplete = ({ label, value, onSelect }) => {
+const Autocomplete = ({ label, value, onSelect }) => {
   const [query, setQuery] = useState(value || "");
   const [results, setResults] = useState([]);
   const [loading, setLoading] = useState(false);
@@ -118,4 +118,4 @@ const CityAutocomplete = ({ label, value, onSelect }) => {
   );
 };
 
-export default CityAutocomplete;
+export default Autocomplete;
